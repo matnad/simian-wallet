@@ -1,0 +1,13 @@
+# automatically fetch contract sources from Etherscan
+autofetch_sources: true
+
+networks:
+  development:
+    gas_price: 200 gwei
+  matnad-eth:
+    cmd_settings:
+      default_balance: 10000 ether
+
+reports:
+    exclude_contracts:
+        - SafeMath
